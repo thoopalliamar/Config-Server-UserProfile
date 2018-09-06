@@ -1,14 +1,8 @@
 server:
-  port: "8040"
+  port: "8070"
 spring:
-  data:
-    mongodb:
-      database: userdb
-      host: localhost
-      port: "27017"
-      uri: mongodb://localhost/userdb
-      username: ""
+
   application:
-    name: UserProfile
+    name: client
 
 
